@@ -1,0 +1,37 @@
+.banner-top-row {
+    background-color: #1c86c8;
+    padding: 25px 0;
+  }
+  
+  .banner-top-title {
+    text-align: center;
+  }
+  
+  .banner-top-title h1 {
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'Mont ExtraLight DEMO', sans-serif;
+    letter-spacing: 10px;
+    font-size: clamp(1.125rem, 0.755rem + 1.975vw, 3.125rem);
+  }
+  
+  .banner-sec {
+    position: relative;
+    overflow: hidden;
+    height: 72vh;
+  }
+  
+  .banner-sec .banner-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
+  
+  .main-content-wrapper {
+    max-width: 1340px;
+    margin: auto;
+  }
+  

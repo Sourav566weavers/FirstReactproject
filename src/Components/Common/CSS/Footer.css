@@ -1,0 +1,89 @@
+footer .footer-top {
+    background-color: #000000;
+    overflow: hidden;
+    padding: 30px 0px;
+  }
+  
+  footer .footer-top ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-top ul li {
+    position: relative;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  
+  footer .footer-top ul li a {
+    color: #fff;
+    font-size: clamp(0.75rem, 0.657rem + 0.494vw, 1.25rem);
+    font-family: 'Avenir Light';
+    text-transform: uppercase;
+  }
+  
+  footer .footer-top ul li a:hover {
+    color: #1c86c8;
+  }
+  
+  footer .footer-top ul li::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    background-color: #1c86c8;
+    height: 80%;
+    width: 1.5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  footer .footer-top ul li:last-child::after {
+    display: none;
+  }
+  
+  footer .footer-top ul li:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  
+  footer .footer-top p {
+    text-align: center;
+    font-size: clamp(0.875rem, 0.8rem + 0.375vw, 1.25rem);
+    color: #fff;
+    margin-bottom: 12px;
+    font-family: 'Avenir Light';
+  }
+  
+  footer .footer-top-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .footer-social {
+    max-width: 60px;
+    flex: 0 0 auto;
+    text-align: right;
+  }
+  
+  footer .footer-menu {
+    text-align: center;
+    width: calc(100% - 60px);
+  }
+  
+  /* Additional Footer Styles */
+  footer .footer-main {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Avenir Light', sans-serif;
+  }
+  
+  footer .footer-logo-bicsi img {
+    max-width: 150px;
+  }
+  

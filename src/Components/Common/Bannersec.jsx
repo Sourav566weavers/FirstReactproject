@@ -7,7 +7,7 @@ const Banner = ({ image, title }) => {
       <section className="banner-top-row">
         <div className="container">
           <div className="banner-top-title">
-            <h1>{ retu}</h1>
+            <h1>The test Side</h1>
           </div>
         </div>
       </section>
@@ -20,7 +20,3 @@ const Banner = ({ image, title }) => {
 };
 
 export default Banner;
-
-
-const Banner = ()=>
-  return()
